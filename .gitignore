@@ -222,8 +222,11 @@ __marimo__/
 
 # Miner runtime (large generated files — never commit)
 miner/data/repos/
-miner/data/results/
 miner/data/codeql-dbs/
+
+# Miner results (commit results for sharing)
+!miner/data/results/
+!miner/data/results/**
 
 # Analyzer runtime (ignore contents, keep .gitkeep for dir structure)
 analyzer/data/*
