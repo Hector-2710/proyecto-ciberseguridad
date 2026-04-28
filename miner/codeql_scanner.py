@@ -22,6 +22,7 @@ CODEQL_QUERY_SUITES: dict[str, str] = {
     "java": "java-code-scanning.qls",
     "python": "python-code-scanning.qls",
 }
+CODEQL_ANALYZE_RAM_MB = 8192
 DB_CREATE_TIMEOUT_SECONDS = 1800  # 30 minutes
 DB_ANALYZE_TIMEOUT_SECONDS = 600  # 10 minutes
 
@@ -239,6 +240,7 @@ def analyze_codeql_db(db_path: Path, output_path: Path, language: str) -> StepRe
         str(db_path),
         "--format=sarif-latest",
         f"--output={output_path}",
+        f"--ram={CODEQL_ANALYZE_RAM_MB}",
         query_suite,
     ]
 

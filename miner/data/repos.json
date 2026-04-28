@@ -11,14 +11,6 @@
         {
             "url": "https://github.com/pydantic/pydantic.git",
             "path": "data/repos/pydantic"
-        },
-        {
-            "url": "https://github.com/apache/commons-lang.git",
-            "path": "data/repos/commons-lang"
-        },
-        {
-            "url": "https://github.com/google/guava.git",
-            "path": "data/repos/guava"
         }
     ]
 }
