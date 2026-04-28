@@ -1,0 +1,24 @@
+{
+    "repositories": [
+        {
+            "url": "https://github.com/pallets/flask.git",
+            "path": "data/repos/flask"
+        },
+        {
+            "url": "https://github.com/psf/requests.git",
+            "path": "data/repos/requests"
+        },
+        {
+            "url": "https://github.com/pydantic/pydantic.git",
+            "path": "data/repos/pydantic"
+        },
+        {
+            "url": "https://github.com/apache/commons-lang.git",
+            "path": "data/repos/commons-lang"
+        },
+        {
+            "url": "https://github.com/google/guava.git",
+            "path": "data/repos/guava"
+        }
+    ]
+}

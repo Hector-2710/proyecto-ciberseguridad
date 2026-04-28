@@ -1,0 +1,3 @@
+# Miner Pipeline Dependencies
+# CodeQL, Syft, and Grype are installed via the Dev Container Dockerfile
+pandas>=2.0
