@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Agents
+.opencode/
+
+# Miner runtime (large generated files — never commit)
+miner/data/repos/
+miner/data/results/
+miner/data/codeql-dbs/
+
+# Analyzer runtime (ignore contents, keep .gitkeep for dir structure)
+analyzer/data/*
+!analyzer/data/.gitkeep
+*.ipynb_checkpoints/
