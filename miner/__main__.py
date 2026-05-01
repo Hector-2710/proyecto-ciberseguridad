@@ -19,8 +19,8 @@ if str(_PROJECT_ROOT) not in sys.path:
 import argparse  # noqa: E402
 import logging  # noqa: E402
 
-from miner.config import Config  # noqa: E402
-from miner.pipeline import MinerPipeline  # noqa: E402
+from config import Config  # noqa: E402
+from pipeline import MinerPipeline  # noqa: E402
 
 
 def _setup_logging(verbose: bool = False) -> None:

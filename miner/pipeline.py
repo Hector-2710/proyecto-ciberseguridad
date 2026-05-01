@@ -10,13 +10,13 @@ import logging
 from datetime import datetime, timezone
 from pathlib import Path
 
-from miner.aggregator import Aggregator
-from miner.cloner import clone_repo
-from miner.codeql_scanner import run_codeql_scan
-from miner.config import Config
-from miner.grype_scanner import GrypeScanner
-from miner.models import PipelineResult, StepResult, Vulnerability
-from miner.syft_scanner import SyftScanner
+from aggregator import Aggregator
+from cloner import clone_repo
+from codeql_scanner import run_codeql_scan
+from config import Config
+from grype_scanner import GrypeScanner
+from models import PipelineResult, StepResult, Vulnerability
+from syft_scanner import SyftScanner
 
 LOGGER = logging.getLogger(__name__)
 

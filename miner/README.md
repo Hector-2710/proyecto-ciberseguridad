@@ -1,7 +1,7 @@
 # Miner — Vulnerability Extraction Pipeline
 
 > **Component 1/3** del proyecto semestral de Ciberseguridad.
-> Extrae vulnerabilidades de repositorios Spring mediante CodeQL, Syft y Grype.
+> Extrae vulnerabilidades de repositorios Python mediante CodeQL, Syft y Grype.
 
 ---
 
@@ -26,7 +26,7 @@ de forma continua y automatizada, ejecutando tres herramientas de análisis:
 
 | Herramienta | Propósito | Entrada | Salida |
 |-------------|-----------|---------|--------|
-| **CodeQL** | Análisis estático de seguridad en código fuente Java | Código fuente del repo | SARIF JSON |
+| **CodeQL** | Análisis estático de seguridad (Java/Python según detección) | Código fuente del repo | SARIF JSON |
 | **Syft** | Generación de SBOM (Software Bill of Materials) | Directorio del repo | Syft JSON |
 | **Grype** | Detección de vulnerabilidades en dependencias | SBOM generado por Syft | Grype JSON |
 
@@ -36,7 +36,7 @@ encontradas, listas para ser consumidas por el Analyzer y Visualizer.
 
 ### Características clave
 
-- **Procesamiento continuo:** Itera sobre 33 repositorios de `spring-projects`.
+- **Procesamiento continuo:** Itera sobre repositorios definidos en `data/repos.json`.
 - **Reanudación automática:** Si el pipeline se interrumpe, al re-ejecutarlo
   salta los pasos ya completados (clon, CodeQL, SBOM, Grype).
 - **Aislamiento de errores:** Un fallo en un repositorio no detiene el
@@ -71,7 +71,7 @@ proyecto-ciberseguridad/
 │   │   └── devcontainer.json       # Configuración VS Code
 │   │
 │   └── data/
-│       ├── repos.json              # 33 repositorios Spring (url + path)
+│       ├── repos.json              # Repositorios a analizar (url + path)
 │       ├── repos/                  # [runtime] Repos clonados (git clone --depth 1)
 │       ├── codeql-dbs/             # [runtime] Bases de datos CodeQL
 │       └── results/
@@ -108,7 +108,7 @@ proyecto-ciberseguridad/
 ## 3. Flujo del Pipeline
 
 ```
-data/repos.json (33 repos)
+data/repos.json (repos configurados)
         │
         ▼
 ┌─────────────────────────────────────────────────────────┐
@@ -221,7 +221,7 @@ def clone_repo(url: str, target: Path, depth: int = 1) -> StepResult
 - Verifica si la DB ya existe (reanudación)
 
 #### b) `analyze_codeql_db(db_path, output_path) → StepResult`
-- Ejecuta `codeql database analyze` con el query suite `java-code-scanning.qls`
+- Ejecuta `codeql database analyze` con el query suite según lenguaje (`java-code-scanning.qls` o `python-code-scanning.qls`)
 - Genera salida en formato `sarif-latest`
 - Timeout de 10 minutos
 - Verifica si el SARIF ya existe (reanudación)

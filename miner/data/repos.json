@@ -11,6 +11,94 @@
         {
             "url": "https://github.com/pydantic/pydantic.git",
             "path": "data/repos/pydantic"
+        },
+        {
+            "url": "https://github.com/fastapi/fastapi.git",
+            "path": "data/repos/fastapi"
+        },
+        {
+            "url": "https://github.com/django/django.git",
+            "path": "data/repos/django"
+        },
+        {
+            "url": "https://github.com/encode/httpx.git",
+            "path": "data/repos/httpx"
+        },
+        {
+            "url": "https://github.com/encode/starlette.git",
+            "path": "data/repos/starlette"
+        },
+        {
+            "url": "https://github.com/encode/uvicorn.git",
+            "path": "data/repos/uvicorn"
+        },
+        {
+            "url": "https://github.com/tornadoweb/tornado.git",
+            "path": "data/repos/tornado"
+        },
+        {
+            "url": "https://github.com/aio-libs/aiohttp.git",
+            "path": "data/repos/aiohttp"
+        },
+        {
+            "url": "https://github.com/sanic-org/sanic.git",
+            "path": "data/repos/sanic"
+        },
+        {
+            "url": "https://github.com/pallets/click.git",
+            "path": "data/repos/click"
+        },
+        {
+            "url": "https://github.com/pallets/jinja.git",
+            "path": "data/repos/jinja"
+        },
+        {
+            "url": "https://github.com/pytest-dev/pytest.git",
+            "path": "data/repos/pytest"
+        },
+        {
+            "url": "https://github.com/psf/black.git",
+            "path": "data/repos/black"
+        },
+        {
+            "url": "https://github.com/python/mypy.git",
+            "path": "data/repos/mypy"
+        },
+        {
+            "url": "https://github.com/python-poetry/poetry.git",
+            "path": "data/repos/poetry"
+        },
+        {
+            "url": "https://github.com/scrapy/scrapy.git",
+            "path": "data/repos/scrapy"
+        },
+        {
+            "url": "https://github.com/celery/celery.git",
+            "path": "data/repos/celery"
+        },
+        {
+            "url": "https://github.com/ansible/ansible.git",
+            "path": "data/repos/ansible"
+        },
+        {
+            "url": "https://github.com/apache/airflow.git",
+            "path": "data/repos/airflow"
+        },
+        {
+            "url": "https://github.com/langchain-ai/langchain.git",
+            "path": "data/repos/langchain"
+        },
+        {
+            "url": "https://github.com/openai/openai-python.git",
+            "path": "data/repos/openai-python"
+        },
+        {
+            "url": "https://github.com/huggingface/transformers.git",
+            "path": "data/repos/transformers"
+        },
+        {
+            "url": "https://github.com/pandas-dev/pandas.git",
+            "path": "data/repos/pandas"
         }
     ]
 }

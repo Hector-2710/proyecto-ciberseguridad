@@ -12,7 +12,7 @@ import shutil
 import subprocess
 from pathlib import Path
 
-from miner.models import StepResult, Vulnerability
+from models import StepResult, Vulnerability
 
 from typing import Any
 

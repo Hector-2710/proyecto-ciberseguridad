@@ -11,8 +11,8 @@ import logging
 from datetime import datetime, timezone
 from pathlib import Path
 
-from miner.config import Config
-from miner.models import PipelineResult, StepResult, Vulnerability
+from config import Config
+from models import PipelineResult, StepResult, Vulnerability
 
 LOGGER = logging.getLogger(__name__)
 

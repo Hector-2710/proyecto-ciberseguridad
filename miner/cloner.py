@@ -6,7 +6,7 @@ import logging
 import subprocess
 from pathlib import Path
 
-from miner.models import StepResult
+from models import StepResult
 
 LOGGER = logging.getLogger(__name__)
 
