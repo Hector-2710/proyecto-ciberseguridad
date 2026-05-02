@@ -1,0 +1,1566 @@
+{
+  "artifacts": [
+    {
+      "id": "7e2e08b44d1116f1",
+      "name": "actions/checkout",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release-conda.yml",
+          "accessPath": "/.github/workflows/release-conda.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v4",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v4"
+      }
+    },
+    {
+      "id": "1c10e7b3d50374ca",
+      "name": "actions/checkout",
+      "version": "v6.0.2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6.0.2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+        "comment": "v6.0.2"
+      }
+    },
+    {
+      "id": "b3c72b9e295fc156",
+      "name": "actions/checkout",
+      "version": "v6.0.2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/trufflehog.yml",
+          "accessPath": "/.github/workflows/trufflehog.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6.0.2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+        "comment": "v6.0.2"
+      }
+    },
+    {
+      "id": "192e48ec74d18a69",
+      "name": "actions/setup-python",
+      "version": "a26af69be951a213d495a4c3e4e4022e16d87065",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:a26af69be951a213d495a4c3e4e4022e16d87065:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:a26af69be951a213d495a4c3e4e4022e16d87065:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:a26af69be951a213d495a4c3e4e4022e16d87065:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:a26af69be951a213d495a4c3e4e4022e16d87065:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:a26af69be951a213d495a4c3e4e4022e16d87065:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:a26af69be951a213d495a4c3e4e4022e16d87065:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+        "comment": "v5"
+      }
+    },
+    {
+      "id": "dc4389e3123da4fc",
+      "name": "conda-incubator/setup-miniconda",
+      "version": "9f54435e0e72c53962ee863144e47a4b094bfd35",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:conda-incubator\\/setup-miniconda:conda-incubator\\/setup-miniconda:9f54435e0e72c53962ee863144e47a4b094bfd35:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda-incubator\\/setup-miniconda:conda_incubator\\/setup_miniconda:9f54435e0e72c53962ee863144e47a4b094bfd35:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda_incubator\\/setup_miniconda:conda-incubator\\/setup-miniconda:9f54435e0e72c53962ee863144e47a4b094bfd35:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda_incubator\\/setup_miniconda:conda_incubator\\/setup_miniconda:9f54435e0e72c53962ee863144e47a4b094bfd35:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda-incubator\\/setup:conda-incubator\\/setup-miniconda:9f54435e0e72c53962ee863144e47a4b094bfd35:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda-incubator\\/setup:conda_incubator\\/setup_miniconda:9f54435e0e72c53962ee863144e47a4b094bfd35:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda_incubator\\/setup:conda-incubator\\/setup-miniconda:9f54435e0e72c53962ee863144e47a4b094bfd35:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda_incubator\\/setup:conda_incubator\\/setup_miniconda:9f54435e0e72c53962ee863144e47a4b094bfd35:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda:conda-incubator\\/setup-miniconda:9f54435e0e72c53962ee863144e47a4b094bfd35:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda:conda_incubator\\/setup_miniconda:9f54435e0e72c53962ee863144e47a4b094bfd35:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/conda-incubator/setup-miniconda@9f54435e0e72c53962ee863144e47a4b094bfd35",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "conda-incubator/setup-miniconda@9f54435e0e72c53962ee863144e47a4b094bfd35",
+        "comment": "v2"
+      }
+    },
+    {
+      "id": "cf8892ae6a7fe4ce",
+      "name": "conda-incubator/setup-miniconda",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release-conda.yml",
+          "accessPath": "/.github/workflows/release-conda.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:conda-incubator\\/setup-miniconda:conda-incubator\\/setup-miniconda:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda-incubator\\/setup-miniconda:conda_incubator\\/setup_miniconda:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda_incubator\\/setup_miniconda:conda-incubator\\/setup-miniconda:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda_incubator\\/setup_miniconda:conda_incubator\\/setup_miniconda:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda-incubator\\/setup:conda-incubator\\/setup-miniconda:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda-incubator\\/setup:conda_incubator\\/setup_miniconda:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda_incubator\\/setup:conda-incubator\\/setup-miniconda:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda_incubator\\/setup:conda_incubator\\/setup_miniconda:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda:conda-incubator\\/setup-miniconda:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:conda:conda_incubator\\/setup_miniconda:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/conda-incubator/setup-miniconda@v2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "conda-incubator/setup-miniconda@v2"
+      }
+    },
+    {
+      "id": "00c8ed7427b5ecbf",
+      "name": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml",
+      "version": "90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/build_documentation.yml",
+          "accessPath": "/.github/workflows/build_documentation.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/huggingface/doc-builder@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3#.github/workflows/build_main_documentation.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3"
+      }
+    },
+    {
+      "id": "1313159181d74101",
+      "name": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml",
+      "version": "90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/build_pr_documentation.yml",
+          "accessPath": "/.github/workflows/build_pr_documentation.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/huggingface/doc-builder@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3#.github/workflows/build_pr_documentation.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3"
+      }
+    },
+    {
+      "id": "d1d00ebe09cb8a82",
+      "name": "huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml",
+      "version": "9ad2de8582b56c017cb530c1165116d40433f1c6",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/upload_pr_documentation.yml",
+          "accessPath": "/.github/workflows/upload_pr_documentation.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/huggingface/doc-builder@9ad2de8582b56c017cb530c1165116d40433f1c6#.github/workflows/upload_pr_documentation.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml@9ad2de8582b56c017cb530c1165116d40433f1c6"
+      }
+    },
+    {
+      "id": "a7d8397b30e8863d",
+      "name": "ipyniivue",
+      "version": "2.4.2",
+      "type": "python",
+      "foundBy": "python-package-cataloger",
+      "locations": [
+        {
+          "path": "/setup.py",
+          "accessPath": "/setup.py",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "python",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:python-ipyniivue:python-ipyniivue:2.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-ipyniivue:python_ipyniivue:2.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_ipyniivue:python-ipyniivue:2.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_ipyniivue:python_ipyniivue:2.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ipyniivue:python-ipyniivue:2.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ipyniivue:python_ipyniivue:2.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-ipyniivue:ipyniivue:2.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_ipyniivue:ipyniivue:2.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python-ipyniivue:2.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python_ipyniivue:2.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ipyniivue:ipyniivue:2.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:ipyniivue:2.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:pypi/ipyniivue@2.4.2"
+    },
+    {
+      "id": "df0bf6552fa306ec",
+      "name": "tensorflow",
+      "version": "2.12.0",
+      "type": "python",
+      "foundBy": "python-package-cataloger",
+      "locations": [
+        {
+          "path": "/setup.py",
+          "accessPath": "/setup.py",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "python",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:python-tensorflow:python-tensorflow:2.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-tensorflow:python_tensorflow:2.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_tensorflow:python-tensorflow:2.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_tensorflow:python_tensorflow:2.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-tensorflow:tensorflow:2.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_tensorflow:tensorflow:2.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tensorflow:python-tensorflow:2.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tensorflow:python_tensorflow:2.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python-tensorflow:2.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python_tensorflow:2.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tensorflow:tensorflow:2.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:tensorflow:2.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:pypi/tensorflow@2.12.0"
+    },
+    {
+      "id": "9768de82a995d082",
+      "name": "torch",
+      "version": "2.0.1",
+      "type": "python",
+      "foundBy": "python-package-cataloger",
+      "locations": [
+        {
+          "path": "/setup.py",
+          "accessPath": "/setup.py",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "python",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:python-torch:python-torch:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-torch:python_torch:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_torch:python-torch:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_torch:python_torch:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python-torch:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python_torch:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-torch:torch:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_torch:torch:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:torch:python-torch:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:torch:python_torch:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:torch:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:torch:torch:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:pypi/torch@2.0.1"
+    },
+    {
+      "id": "6a16725f3630bb34",
+      "name": "transformers",
+      "version": "4.30.1",
+      "type": "python",
+      "foundBy": "python-package-cataloger",
+      "locations": [
+        {
+          "path": "/setup.py",
+          "accessPath": "/setup.py",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "python",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:python-transformers:python-transformers:4.30.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-transformers:python_transformers:4.30.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_transformers:python-transformers:4.30.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_transformers:python_transformers:4.30.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-transformers:transformers:4.30.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_transformers:transformers:4.30.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:transformers:python-transformers:4.30.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:transformers:python_transformers:4.30.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python-transformers:4.30.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python_transformers:4.30.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:transformers:transformers:4.30.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:transformers:4.30.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:pypi/transformers@4.30.1"
+    },
+    {
+      "id": "be2eaa85ebb32882",
+      "name": "trufflesecurity/trufflehog",
+      "version": "6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/trufflehog.yml",
+          "accessPath": "/.github/workflows/trufflehog.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:trufflesecurity\\/trufflehog:trufflesecurity\\/trufflehog:6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b"
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "00c8ed7427b5ecbf",
+      "child": "e250a969c9190377",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1313159181d74101",
+      "child": "2121e495097556c0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "192e48ec74d18a69",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1c10e7b3d50374ca",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1e42d32ff6725d5908dba5dddedbe0f9dbe38b4d388a996eecc9fd8ffa9366db",
+      "child": "00c8ed7427b5ecbf",
+      "type": "contains"
+    },
+    {
+      "parent": "1e42d32ff6725d5908dba5dddedbe0f9dbe38b4d388a996eecc9fd8ffa9366db",
+      "child": "1313159181d74101",
+      "type": "contains"
+    },
+    {
+      "parent": "1e42d32ff6725d5908dba5dddedbe0f9dbe38b4d388a996eecc9fd8ffa9366db",
+      "child": "192e48ec74d18a69",
+      "type": "contains"
+    },
+    {
+      "parent": "1e42d32ff6725d5908dba5dddedbe0f9dbe38b4d388a996eecc9fd8ffa9366db",
+      "child": "1c10e7b3d50374ca",
+      "type": "contains"
+    },
+    {
+      "parent": "1e42d32ff6725d5908dba5dddedbe0f9dbe38b4d388a996eecc9fd8ffa9366db",
+      "child": "6a16725f3630bb34",
+      "type": "contains"
+    },
+    {
+      "parent": "1e42d32ff6725d5908dba5dddedbe0f9dbe38b4d388a996eecc9fd8ffa9366db",
+      "child": "7e2e08b44d1116f1",
+      "type": "contains"
+    },
+    {
+      "parent": "1e42d32ff6725d5908dba5dddedbe0f9dbe38b4d388a996eecc9fd8ffa9366db",
+      "child": "9768de82a995d082",
+      "type": "contains"
+    },
+    {
+      "parent": "1e42d32ff6725d5908dba5dddedbe0f9dbe38b4d388a996eecc9fd8ffa9366db",
+      "child": "a7d8397b30e8863d",
+      "type": "contains"
+    },
+    {
+      "parent": "1e42d32ff6725d5908dba5dddedbe0f9dbe38b4d388a996eecc9fd8ffa9366db",
+      "child": "b3c72b9e295fc156",
+      "type": "contains"
+    },
+    {
+      "parent": "1e42d32ff6725d5908dba5dddedbe0f9dbe38b4d388a996eecc9fd8ffa9366db",
+      "child": "be2eaa85ebb32882",
+      "type": "contains"
+    },
+    {
+      "parent": "1e42d32ff6725d5908dba5dddedbe0f9dbe38b4d388a996eecc9fd8ffa9366db",
+      "child": "cf8892ae6a7fe4ce",
+      "type": "contains"
+    },
+    {
+      "parent": "1e42d32ff6725d5908dba5dddedbe0f9dbe38b4d388a996eecc9fd8ffa9366db",
+      "child": "d1d00ebe09cb8a82",
+      "type": "contains"
+    },
+    {
+      "parent": "1e42d32ff6725d5908dba5dddedbe0f9dbe38b4d388a996eecc9fd8ffa9366db",
+      "child": "dc4389e3123da4fc",
+      "type": "contains"
+    },
+    {
+      "parent": "1e42d32ff6725d5908dba5dddedbe0f9dbe38b4d388a996eecc9fd8ffa9366db",
+      "child": "df0bf6552fa306ec",
+      "type": "contains"
+    },
+    {
+      "parent": "6a16725f3630bb34",
+      "child": "c829033125510d5a",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "7e2e08b44d1116f1",
+      "child": "da0a890dd4cd0ae4",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9768de82a995d082",
+      "child": "c829033125510d5a",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a7d8397b30e8863d",
+      "child": "c829033125510d5a",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b3c72b9e295fc156",
+      "child": "df6706fea75e2f98",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "be2eaa85ebb32882",
+      "child": "df6706fea75e2f98",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "cf8892ae6a7fe4ce",
+      "child": "da0a890dd4cd0ae4",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d1d00ebe09cb8a82",
+      "child": "1a21d4b838d5627f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "dc4389e3123da4fc",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "df0bf6552fa306ec",
+      "child": "c829033125510d5a",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "e250a969c9190377",
+      "location": {
+        "path": "/.github/workflows/build_documentation.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 482
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "e95af84351ca76bf017815a747e45acbf184c6a7"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "5f3b954d52131658b6ea109bc4fe20453a8cd725d402e8324e00a5b085cac6ed"
+        }
+      ]
+    },
+    {
+      "id": "2121e495097556c0",
+      "location": {
+        "path": "/.github/workflows/build_pr_documentation.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 445
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "7095b631586b17c6de13a21ae7f600f85d687feb"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "1965ab130882c32d832a6bf1f62c70121dceb351738278499586d1cd3d02ee13"
+        }
+      ]
+    },
+    {
+      "id": "7561d461b00ff11d",
+      "location": {
+        "path": "/.github/workflows/ci.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 6020
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "f4615de5643337ca28683ab2aa3620c7f96ec208"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "d0efa4b05b8edda3ed2b045e2e4c665837316cd874be0daac019fb1f11e457b8"
+        }
+      ]
+    },
+    {
+      "id": "da0a890dd4cd0ae4",
+      "location": {
+        "path": "/.github/workflows/release-conda.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 1069
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "bdeba98f5e7f677153de4adc9dce38fad2913f5c"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "3c446898fef65dced56e6f0db1540b72516b8e4a21001ef8397c8754224672a3"
+        }
+      ]
+    },
+    {
+      "id": "df6706fea75e2f98",
+      "location": {
+        "path": "/.github/workflows/trufflehog.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 430
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "a3f14363309081b01137f71d666b51a5fc68b3cb"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "ebe45f57b3888e67354c9332d9a9ca91182915cd0640e1fe71bcd0992eb81b9d"
+        }
+      ]
+    },
+    {
+      "id": "1a21d4b838d5627f",
+      "location": {
+        "path": "/.github/workflows/upload_pr_documentation.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 425
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "d45cb145a0509da9cfab46e9c1248f565f92f0ae"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "96cce16af900a4080931023d245084e46f4864ef17d5e9a1c1caa3a6a94dd993"
+        }
+      ]
+    },
+    {
+      "id": "c829033125510d5a",
+      "location": {
+        "path": "/setup.py"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 10048
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "1e98f2d803cac82e2f062b9c314c472c23ca90ec"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "5eae829accb37eb2c5fa5b0e8e30657aa31591819184c0d9d5cb1f0882dd7c6d"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "1e42d32ff6725d5908dba5dddedbe0f9dbe38b4d388a996eecc9fd8ffa9366db",
+    "name": "/workspaces/proyecto-ciberseguridad/miner/data/repos/datasets",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/workspaces/proyecto-ciberseguridad/miner/data/repos/datasets"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.44.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "conda-meta-cataloger",
+          "dart-pubspec-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "deb-archive-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dotnet-packages-lock-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "gguf-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "opam-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-lock-cataloger",
+          "php-interpreter-cataloger",
+          "php-pear-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "r-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "snap-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "terraform-lock-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "valkey-binary",
+          "nodejs-binary",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "deno-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "openldap-search-binary",
+          "qt-qtbase-lib",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "istio-binary",
+          "istio-binary",
+          "grafana-binary",
+          "grafana-binary",
+          "envoy-binary",
+          "mongodb-binary",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "exclude-project-references": true,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/home/vscode/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false,
+          "use-packages-lib": true
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/vscode/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+  }
+}

@@ -1,0 +1,2197 @@
+{
+  "artifacts": [
+    {
+      "id": "71b091c4febf82a2",
+      "name": "actions/checkout",
+      "version": "v6.0.2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/min-versions.yml",
+          "accessPath": "/.github/workflows/min-versions.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6.0.2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+        "comment": "v6.0.2"
+      }
+    },
+    {
+      "id": "cbddbda524971ab5",
+      "name": "actions/checkout",
+      "version": "v6.0.2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/quality.yml",
+          "accessPath": "/.github/workflows/quality.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6.0.2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+        "comment": "v6.0.2"
+      }
+    },
+    {
+      "id": "c0f0ed8aa2a6351b",
+      "name": "actions/checkout",
+      "version": "v6.0.2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/tests.yml",
+          "accessPath": "/.github/workflows/tests.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6.0.2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+        "comment": "v6.0.2"
+      }
+    },
+    {
+      "id": "e6d9902003d7cb0c",
+      "name": "actions/setup-python",
+      "version": "a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/min-versions.yml",
+          "accessPath": "/.github/workflows/min-versions.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+        "comment": "v6"
+      }
+    },
+    {
+      "id": "4a48b42135a7a4ca",
+      "name": "actions/setup-python",
+      "version": "a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/quality.yml",
+          "accessPath": "/.github/workflows/quality.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+        "comment": "v6"
+      }
+    },
+    {
+      "id": "4450a70b977bb80c",
+      "name": "actions/setup-python",
+      "version": "a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/tests.yml",
+          "accessPath": "/.github/workflows/tests.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+        "comment": "v6"
+      }
+    },
+    {
+      "id": "379fc9b7c23284ce",
+      "name": "astral-sh/setup-uv",
+      "version": "d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/quality.yml",
+          "accessPath": "/.github/workflows/quality.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:astral-sh\\/setup-uv:astral-sh\\/setup-uv:d0cc045d04ccac9d8b7881df0226f9e82c39688e:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral-sh\\/setup-uv:astral_sh\\/setup_uv:d0cc045d04ccac9d8b7881df0226f9e82c39688e:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral_sh\\/setup_uv:astral-sh\\/setup-uv:d0cc045d04ccac9d8b7881df0226f9e82c39688e:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral_sh\\/setup_uv:astral_sh\\/setup_uv:d0cc045d04ccac9d8b7881df0226f9e82c39688e:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral-sh\\/setup:astral-sh\\/setup-uv:d0cc045d04ccac9d8b7881df0226f9e82c39688e:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral-sh\\/setup:astral_sh\\/setup_uv:d0cc045d04ccac9d8b7881df0226f9e82c39688e:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral_sh\\/setup:astral-sh\\/setup-uv:d0cc045d04ccac9d8b7881df0226f9e82c39688e:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral_sh\\/setup:astral_sh\\/setup_uv:d0cc045d04ccac9d8b7881df0226f9e82c39688e:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral:astral-sh\\/setup-uv:d0cc045d04ccac9d8b7881df0226f9e82c39688e:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral:astral_sh\\/setup_uv:d0cc045d04ccac9d8b7881df0226f9e82c39688e:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+        "comment": "v6"
+      }
+    },
+    {
+      "id": "d6383c85772eeeab",
+      "name": "astral-sh/setup-uv",
+      "version": "d0d8abe699bfb85fec6de9f7adb5ae17292296ff",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/min-versions.yml",
+          "accessPath": "/.github/workflows/min-versions.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:astral-sh\\/setup-uv:astral-sh\\/setup-uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral-sh\\/setup-uv:astral_sh\\/setup_uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral_sh\\/setup_uv:astral-sh\\/setup-uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral_sh\\/setup_uv:astral_sh\\/setup_uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral-sh\\/setup:astral-sh\\/setup-uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral-sh\\/setup:astral_sh\\/setup_uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral_sh\\/setup:astral-sh\\/setup-uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral_sh\\/setup:astral_sh\\/setup_uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral:astral-sh\\/setup-uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral:astral_sh\\/setup_uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff",
+        "comment": "v6"
+      }
+    },
+    {
+      "id": "0d6ba28fde661b0e",
+      "name": "astral-sh/setup-uv",
+      "version": "d0d8abe699bfb85fec6de9f7adb5ae17292296ff",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/tests.yml",
+          "accessPath": "/.github/workflows/tests.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:astral-sh\\/setup-uv:astral-sh\\/setup-uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral-sh\\/setup-uv:astral_sh\\/setup_uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral_sh\\/setup_uv:astral-sh\\/setup-uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral_sh\\/setup_uv:astral_sh\\/setup_uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral-sh\\/setup:astral-sh\\/setup-uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral-sh\\/setup:astral_sh\\/setup_uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral_sh\\/setup:astral-sh\\/setup-uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral_sh\\/setup:astral_sh\\/setup_uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral:astral-sh\\/setup-uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral:astral_sh\\/setup_uv:d0d8abe699bfb85fec6de9f7adb5ae17292296ff:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff",
+        "comment": "v6"
+      }
+    },
+    {
+      "id": "c85b446f9d884672",
+      "name": "jinja2",
+      "version": "3.1.6",
+      "type": "python",
+      "foundBy": "python-package-cataloger",
+      "locations": [
+        {
+          "path": "/docs/requirements.txt",
+          "accessPath": "/docs/requirements.txt",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "python",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:python-jinja2:python-jinja2:3.1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-jinja2:python_jinja2:3.1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_jinja2:python-jinja2:3.1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_jinja2:python_jinja2:3.1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jinja2:python-jinja2:3.1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jinja2:python_jinja2:3.1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-jinja2:jinja2:3.1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python-jinja2:3.1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python_jinja2:3.1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_jinja2:jinja2:3.1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jinja2:jinja2:3.1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:jinja2:3.1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:pypi/jinja2@3.1.6",
+      "metadataType": "python-pip-requirements-entry",
+      "metadata": {
+        "name": "Jinja2",
+        "versionConstraint": "==3.1.6"
+      }
+    },
+    {
+      "id": "f7debeaaff9579fc",
+      "name": "myst-parser",
+      "version": "4.0.0",
+      "type": "python",
+      "foundBy": "python-package-cataloger",
+      "locations": [
+        {
+          "path": "/docs/requirements.txt",
+          "accessPath": "/docs/requirements.txt",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "python",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:python-myst-parser:python-myst-parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-myst-parser:python_myst_parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_myst_parser:python-myst-parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_myst_parser:python_myst_parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:myst-parser:python-myst-parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:myst-parser:python_myst_parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:myst_parser:python-myst-parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:myst_parser:python_myst_parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-myst-parser:myst-parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-myst-parser:myst_parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-myst:python-myst-parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-myst:python_myst_parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_myst:python-myst-parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_myst:python_myst_parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_myst_parser:myst-parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_myst_parser:myst_parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python-myst-parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python_myst_parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:myst-parser:myst-parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:myst-parser:myst_parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:myst:python-myst-parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:myst:python_myst_parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:myst_parser:myst-parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:myst_parser:myst_parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-myst:myst-parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-myst:myst_parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_myst:myst-parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_myst:myst_parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:myst-parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:myst_parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:myst:myst-parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:myst:myst_parser:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:pypi/myst-parser@4.0.0",
+      "metadataType": "python-pip-requirements-entry",
+      "metadata": {
+        "name": "myst-parser",
+        "versionConstraint": "==4.0.0"
+      }
+    },
+    {
+      "id": "8ae00ef8167efa56",
+      "name": "sphinx",
+      "version": "8.1.3",
+      "type": "python",
+      "foundBy": "python-package-cataloger",
+      "locations": [
+        {
+          "path": "/docs/requirements.txt",
+          "accessPath": "/docs/requirements.txt",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "python",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:python-sphinx:8.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:python_sphinx:8.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:python-sphinx:8.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:python_sphinx:8.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:sphinx:8.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python-sphinx:8.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python_sphinx:8.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:sphinx:8.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:python-sphinx:8.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:python_sphinx:8.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:sphinx:8.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:sphinx:8.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:pypi/sphinx@8.1.3",
+      "metadataType": "python-pip-requirements-entry",
+      "metadata": {
+        "name": "sphinx",
+        "versionConstraint": "==8.1.3"
+      }
+    },
+    {
+      "id": "163c8b8748b8c47d",
+      "name": "sphinx-copybutton",
+      "version": "0.5.2",
+      "type": "python",
+      "foundBy": "python-package-cataloger",
+      "locations": [
+        {
+          "path": "/docs/requirements.txt",
+          "accessPath": "/docs/requirements.txt",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "python",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-copybutton:python-sphinx-copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-copybutton:python_sphinx_copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_copybutton:python-sphinx-copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_copybutton:python_sphinx_copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-copybutton:sphinx-copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-copybutton:sphinx_copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_copybutton:sphinx-copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_copybutton:sphinx_copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-copybutton:python-sphinx-copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-copybutton:python_sphinx_copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_copybutton:python-sphinx-copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_copybutton:python_sphinx_copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:python-sphinx-copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:python_sphinx_copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:python-sphinx-copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:python_sphinx_copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-copybutton:sphinx-copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-copybutton:sphinx_copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_copybutton:sphinx-copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_copybutton:sphinx_copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:sphinx-copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:sphinx_copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python-sphinx-copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python_sphinx_copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:sphinx-copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:sphinx_copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:python-sphinx-copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:python_sphinx_copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:sphinx-copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:sphinx_copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:sphinx-copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:sphinx_copybutton:0.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:pypi/sphinx-copybutton@0.5.2",
+      "metadataType": "python-pip-requirements-entry",
+      "metadata": {
+        "name": "sphinx-copybutton",
+        "versionConstraint": "==0.5.2"
+      }
+    },
+    {
+      "id": "11ff6722b75d9f47",
+      "name": "sphinx-inline-tabs",
+      "version": "2023.4.21",
+      "type": "python",
+      "foundBy": "python-package-cataloger",
+      "locations": [
+        {
+          "path": "/docs/requirements.txt",
+          "accessPath": "/docs/requirements.txt",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "python",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-inline-tabs:python-sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-inline-tabs:python_sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_inline_tabs:python-sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_inline_tabs:python_sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-inline:python-sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-inline:python_sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_inline:python-sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_inline:python_sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-inline-tabs:sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-inline-tabs:sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_inline_tabs:sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_inline_tabs:sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-inline-tabs:python-sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-inline-tabs:python_sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_inline_tabs:python-sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_inline_tabs:python_sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-inline:sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-inline:sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:python-sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:python_sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:python-sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:python_sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_inline:sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_inline:sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-inline:python-sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-inline:python_sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_inline:python-sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_inline:python_sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-inline-tabs:sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-inline-tabs:sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_inline_tabs:sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_inline_tabs:sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python-sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python_sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-inline:sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-inline:sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:python-sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:python_sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_inline:sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_inline:sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:sphinx-inline-tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:sphinx_inline_tabs:2023.4.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:pypi/sphinx-inline-tabs@2023.4.21",
+      "metadataType": "python-pip-requirements-entry",
+      "metadata": {
+        "name": "sphinx_inline_tabs",
+        "versionConstraint": "==2023.4.21"
+      }
+    },
+    {
+      "id": "da9f9a0c2bcf3a1b",
+      "name": "sphinx-markdown-tables",
+      "version": "0.0.17",
+      "type": "python",
+      "foundBy": "python-package-cataloger",
+      "locations": [
+        {
+          "path": "/docs/requirements.txt",
+          "accessPath": "/docs/requirements.txt",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "python",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-markdown-tables:python-sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-markdown-tables:python_sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_markdown_tables:python-sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_markdown_tables:python_sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-markdown-tables:sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-markdown-tables:sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-markdown:python-sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-markdown:python_sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_markdown:python-sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_markdown:python_sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_markdown_tables:sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_markdown_tables:sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-markdown-tables:python-sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-markdown-tables:python_sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_markdown_tables:python-sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_markdown_tables:python_sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-markdown:sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-markdown:sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_markdown:sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_markdown:sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-markdown-tables:sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-markdown-tables:sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-markdown:python-sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-markdown:python_sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_markdown:python-sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_markdown:python_sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_markdown_tables:sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_markdown_tables:sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:python-sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:python_sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:python-sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:python_sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-markdown:sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-markdown:sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_markdown:sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_markdown:sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python-sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python_sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:python-sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:python_sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:sphinx-markdown-tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:sphinx_markdown_tables:0.0.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:pypi/sphinx-markdown-tables@0.0.17",
+      "metadataType": "python-pip-requirements-entry",
+      "metadata": {
+        "name": "sphinx_markdown_tables",
+        "versionConstraint": "==0.0.17"
+      }
+    },
+    {
+      "id": "78cedc5cad54150e",
+      "name": "sphinx-toolbox",
+      "version": "3.9.0",
+      "type": "python",
+      "foundBy": "python-package-cataloger",
+      "locations": [
+        {
+          "path": "/docs/requirements.txt",
+          "accessPath": "/docs/requirements.txt",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "python",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-toolbox:python-sphinx-toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-toolbox:python_sphinx_toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_toolbox:python-sphinx-toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_toolbox:python_sphinx_toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-toolbox:sphinx-toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx-toolbox:sphinx_toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_toolbox:sphinx-toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx_toolbox:sphinx_toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-toolbox:python-sphinx-toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-toolbox:python_sphinx_toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_toolbox:python-sphinx-toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_toolbox:python_sphinx_toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:python-sphinx-toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:python_sphinx_toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:python-sphinx-toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:python_sphinx_toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-toolbox:sphinx-toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx-toolbox:sphinx_toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_toolbox:sphinx-toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx_toolbox:sphinx_toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:sphinx-toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinx:sphinx_toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python-sphinx-toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python_sphinx_toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:sphinx-toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinx:sphinx_toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:python-sphinx-toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:python_sphinx_toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:sphinx-toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:sphinx_toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:sphinx-toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinx:sphinx_toolbox:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:pypi/sphinx-toolbox@3.9.0",
+      "metadataType": "python-pip-requirements-entry",
+      "metadata": {
+        "name": "sphinx-toolbox",
+        "versionConstraint": "==3.9.0"
+      }
+    },
+    {
+      "id": "e74b013e17f5fc44",
+      "name": "sphinxcontrib-mermaid",
+      "version": "1.0.0",
+      "type": "python",
+      "foundBy": "python-package-cataloger",
+      "locations": [
+        {
+          "path": "/docs/requirements.txt",
+          "accessPath": "/docs/requirements.txt",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "python",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:python-sphinxcontrib-mermaid:python-sphinxcontrib-mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinxcontrib-mermaid:python_sphinxcontrib_mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinxcontrib_mermaid:python-sphinxcontrib-mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinxcontrib_mermaid:python_sphinxcontrib_mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinxcontrib-mermaid:sphinxcontrib-mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinxcontrib-mermaid:sphinxcontrib_mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinxcontrib_mermaid:sphinxcontrib-mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinxcontrib_mermaid:sphinxcontrib_mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinxcontrib-mermaid:python-sphinxcontrib-mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinxcontrib-mermaid:python_sphinxcontrib_mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinxcontrib_mermaid:python-sphinxcontrib-mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinxcontrib_mermaid:python_sphinxcontrib_mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinxcontrib:python-sphinxcontrib-mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinxcontrib:python_sphinxcontrib_mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinxcontrib:python-sphinxcontrib-mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinxcontrib:python_sphinxcontrib_mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinxcontrib-mermaid:sphinxcontrib-mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinxcontrib-mermaid:sphinxcontrib_mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinxcontrib_mermaid:sphinxcontrib-mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinxcontrib_mermaid:sphinxcontrib_mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinxcontrib:sphinxcontrib-mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-sphinxcontrib:sphinxcontrib_mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinxcontrib:sphinxcontrib-mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_sphinxcontrib:sphinxcontrib_mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinxcontrib:python-sphinxcontrib-mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinxcontrib:python_sphinxcontrib_mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python-sphinxcontrib-mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python_sphinxcontrib_mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinxcontrib:sphinxcontrib-mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sphinxcontrib:sphinxcontrib_mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:sphinxcontrib-mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:sphinxcontrib_mermaid:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:pypi/sphinxcontrib-mermaid@1.0.0",
+      "metadataType": "python-pip-requirements-entry",
+      "metadata": {
+        "name": "sphinxcontrib-mermaid",
+        "versionConstraint": "==1.0.0"
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "0d6ba28fde661b0e",
+      "child": "9b0927f24570d5cb",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "11ff6722b75d9f47",
+      "child": "8523a564c944f0cf",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "163c8b8748b8c47d",
+      "child": "8523a564c944f0cf",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "379fc9b7c23284ce",
+      "child": "73531774396abd0b",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4450a70b977bb80c",
+      "child": "9b0927f24570d5cb",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4a48b42135a7a4ca",
+      "child": "73531774396abd0b",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "71b091c4febf82a2",
+      "child": "6e3ae3af64466364",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "78cedc5cad54150e",
+      "child": "8523a564c944f0cf",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "8ae00ef8167efa56",
+      "child": "8523a564c944f0cf",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+      "child": "0d6ba28fde661b0e",
+      "type": "contains"
+    },
+    {
+      "parent": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+      "child": "11ff6722b75d9f47",
+      "type": "contains"
+    },
+    {
+      "parent": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+      "child": "163c8b8748b8c47d",
+      "type": "contains"
+    },
+    {
+      "parent": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+      "child": "379fc9b7c23284ce",
+      "type": "contains"
+    },
+    {
+      "parent": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+      "child": "4450a70b977bb80c",
+      "type": "contains"
+    },
+    {
+      "parent": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+      "child": "4a48b42135a7a4ca",
+      "type": "contains"
+    },
+    {
+      "parent": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+      "child": "71b091c4febf82a2",
+      "type": "contains"
+    },
+    {
+      "parent": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+      "child": "78cedc5cad54150e",
+      "type": "contains"
+    },
+    {
+      "parent": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+      "child": "8ae00ef8167efa56",
+      "type": "contains"
+    },
+    {
+      "parent": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+      "child": "c0f0ed8aa2a6351b",
+      "type": "contains"
+    },
+    {
+      "parent": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+      "child": "c85b446f9d884672",
+      "type": "contains"
+    },
+    {
+      "parent": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+      "child": "cbddbda524971ab5",
+      "type": "contains"
+    },
+    {
+      "parent": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+      "child": "d6383c85772eeeab",
+      "type": "contains"
+    },
+    {
+      "parent": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+      "child": "da9f9a0c2bcf3a1b",
+      "type": "contains"
+    },
+    {
+      "parent": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+      "child": "e6d9902003d7cb0c",
+      "type": "contains"
+    },
+    {
+      "parent": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+      "child": "e74b013e17f5fc44",
+      "type": "contains"
+    },
+    {
+      "parent": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+      "child": "f7debeaaff9579fc",
+      "type": "contains"
+    },
+    {
+      "parent": "c0f0ed8aa2a6351b",
+      "child": "9b0927f24570d5cb",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c85b446f9d884672",
+      "child": "8523a564c944f0cf",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "cbddbda524971ab5",
+      "child": "73531774396abd0b",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d6383c85772eeeab",
+      "child": "6e3ae3af64466364",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "da9f9a0c2bcf3a1b",
+      "child": "8523a564c944f0cf",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e6d9902003d7cb0c",
+      "child": "6e3ae3af64466364",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e74b013e17f5fc44",
+      "child": "8523a564c944f0cf",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f7debeaaff9579fc",
+      "child": "8523a564c944f0cf",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "6e3ae3af64466364",
+      "location": {
+        "path": "/.github/workflows/min-versions.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 2538
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "e6dd187c6d8ddf3e027bafa6a23d3f8ec6c5d505"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "89233d769f59db50aa4467a1c8a6262549cd3cf95c0d2eb7b21152e86d208052"
+        }
+      ]
+    },
+    {
+      "id": "73531774396abd0b",
+      "location": {
+        "path": "/.github/workflows/quality.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 813
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "c83cce67e8def04a4db597188a9b653822733839"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "e6a8b13a86b8b9b6959a6d69c9415ee9af270ebfa6b3baa203d260933bc70b66"
+        }
+      ]
+    },
+    {
+      "id": "9b0927f24570d5cb",
+      "location": {
+        "path": "/.github/workflows/tests.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 2914
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "66f6ac73845920be886800d38504f55af0d0b084"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "e5b887c9ba40793f570e5994d83ed6c8fcef28f9ce956c332019ea44b67f37a7"
+        }
+      ]
+    },
+    {
+      "id": "8523a564c944f0cf",
+      "location": {
+        "path": "/docs/requirements.txt"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 189
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "1972bac105366068eb3387a268f2116685c2459f"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "2743a8d21e1e30ce410ba11a619d41217fa41c5a4d129ab6a63d1a39506c598e"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "b845618a98543fd374fa6dbb4ed28c59677ed97f33967671f4e9bdf053ef79b0",
+    "name": "/workspaces/proyecto-ciberseguridad/miner/data/repos/sentence-transformers",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/workspaces/proyecto-ciberseguridad/miner/data/repos/sentence-transformers"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.44.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "conda-meta-cataloger",
+          "dart-pubspec-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "deb-archive-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dotnet-packages-lock-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "gguf-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "opam-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-lock-cataloger",
+          "php-interpreter-cataloger",
+          "php-pear-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "r-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "snap-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "terraform-lock-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "valkey-binary",
+          "nodejs-binary",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "deno-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "openldap-search-binary",
+          "qt-qtbase-lib",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "istio-binary",
+          "istio-binary",
+          "grafana-binary",
+          "grafana-binary",
+          "envoy-binary",
+          "mongodb-binary",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "exclude-project-references": true,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/home/vscode/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false,
+          "use-packages-lib": true
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/vscode/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+  }
+}

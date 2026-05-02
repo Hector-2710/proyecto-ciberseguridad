@@ -1,104 +1,104 @@
 {
     "repositories": [
         {
-            "url": "https://github.com/pallets/flask.git",
-            "path": "data/repos/flask"
-        },
-        {
-            "url": "https://github.com/psf/requests.git",
-            "path": "data/repos/requests"
-        },
-        {
-            "url": "https://github.com/pydantic/pydantic.git",
-            "path": "data/repos/pydantic"
-        },
-        {
-            "url": "https://github.com/fastapi/fastapi.git",
-            "path": "data/repos/fastapi"
-        },
-        {
-            "url": "https://github.com/django/django.git",
-            "path": "data/repos/django"
-        },
-        {
-            "url": "https://github.com/encode/httpx.git",
-            "path": "data/repos/httpx"
-        },
-        {
-            "url": "https://github.com/encode/starlette.git",
-            "path": "data/repos/starlette"
-        },
-        {
-            "url": "https://github.com/encode/uvicorn.git",
-            "path": "data/repos/uvicorn"
-        },
-        {
-            "url": "https://github.com/tornadoweb/tornado.git",
-            "path": "data/repos/tornado"
-        },
-        {
-            "url": "https://github.com/aio-libs/aiohttp.git",
-            "path": "data/repos/aiohttp"
-        },
-        {
-            "url": "https://github.com/sanic-org/sanic.git",
-            "path": "data/repos/sanic"
-        },
-        {
-            "url": "https://github.com/pallets/click.git",
-            "path": "data/repos/click"
-        },
-        {
-            "url": "https://github.com/pallets/jinja.git",
-            "path": "data/repos/jinja"
-        },
-        {
-            "url": "https://github.com/pytest-dev/pytest.git",
-            "path": "data/repos/pytest"
-        },
-        {
-            "url": "https://github.com/psf/black.git",
-            "path": "data/repos/black"
-        },
-        {
-            "url": "https://github.com/python/mypy.git",
-            "path": "data/repos/mypy"
-        },
-        {
-            "url": "https://github.com/python-poetry/poetry.git",
-            "path": "data/repos/poetry"
-        },
-        {
-            "url": "https://github.com/scrapy/scrapy.git",
-            "path": "data/repos/scrapy"
-        },
-        {
-            "url": "https://github.com/celery/celery.git",
-            "path": "data/repos/celery"
-        },
-        {
-            "url": "https://github.com/ansible/ansible.git",
-            "path": "data/repos/ansible"
-        },
-        {
-            "url": "https://github.com/apache/airflow.git",
-            "path": "data/repos/airflow"
-        },
-        {
-            "url": "https://github.com/langchain-ai/langchain.git",
-            "path": "data/repos/langchain"
-        },
-        {
-            "url": "https://github.com/openai/openai-python.git",
-            "path": "data/repos/openai-python"
-        },
-        {
             "url": "https://github.com/huggingface/transformers.git",
             "path": "data/repos/transformers"
         },
         {
-            "url": "https://github.com/pandas-dev/pandas.git",
-            "path": "data/repos/pandas"
+            "url": "https://github.com/huggingface/pytorch-image-models.git",
+            "path": "data/repos/pytorch-image-models"
+        },
+        {
+            "url": "https://github.com/huggingface/diffusers.git",
+            "path": "data/repos/diffusers"
+        },
+        {
+            "url": "https://github.com/huggingface/smolagents.git",
+            "path": "data/repos/smolagents"
+        },
+        {
+            "url": "https://github.com/huggingface/open-r1.git",
+            "path": "data/repos/open-r1"
+        },
+        {
+            "url": "https://github.com/huggingface/lerobot.git",
+            "path": "data/repos/lerobot"
+        },
+        {
+            "url": "https://github.com/huggingface/datasets.git",
+            "path": "data/repos/datasets"
+        },
+        {
+            "url": "https://github.com/huggingface/peft.git",
+            "path": "data/repos/peft"
+        },
+        {
+            "url": "https://github.com/huggingface/sentence-transformers.git",
+            "path": "data/repos/sentence-transformers"
+        },
+        {
+            "url": "https://github.com/huggingface/trl.git",
+            "path": "data/repos/trl"
+        },
+        {
+            "url": "https://github.com/huggingface/text-generation-inference.git",
+            "path": "data/repos/text-generation-inference"
+        },
+        {
+            "url": "https://github.com/huggingface/skills.git",
+            "path": "data/repos/skills"
+        },
+        {
+            "url": "https://github.com/huggingface/accelerate.git",
+            "path": "data/repos/accelerate"
+        },
+        {
+            "url": "https://github.com/huggingface/ml-intern.git",
+            "path": "data/repos/ml-intern"
+        },
+        {
+            "url": "https://github.com/huggingface/alignment-handbook.git",
+            "path": "data/repos/alignment-handbook"
+        },
+        {
+            "url": "https://github.com/huggingface/parler-tts.git",
+            "path": "data/repos/parler-tts"
+        },
+        {
+            "url": "https://github.com/huggingface/nanoVLM.git",
+            "path": "data/repos/nanoVLM"
+        },
+        {
+            "url": "https://github.com/huggingface/speech-to-speech.git",
+            "path": "data/repos/speech-to-speech"
+        },
+        {
+            "url": "https://github.com/huggingface/autotrain-advanced.git",
+            "path": "data/repos/autotrain-advanced"
+        },
+        {
+            "url": "https://github.com/huggingface/distil-whisper.git",
+            "path": "data/repos/distil-whisper"
+        },
+        {
+            "url": "https://github.com/huggingface/smollm.git",
+            "path": "data/repos/smollm"
+        },
+        {
+            "url": "https://github.com/huggingface/huggingface_hub.git",
+            "path": "data/repos/huggingface_hub"
+        },
+        {
+            "url": "https://github.com/huggingface/optimum.git",
+            "path": "data/repos/optimum"
+        },
+        {
+            "url": "https://github.com/huggingface/datatrove.git",
+            "path": "data/repos/datatrove"
+        },
+        {
+            "url": "https://github.com/huggingface/knockknock.git",
+            "path": "data/repos/knockknock"
         }
     ]
 }

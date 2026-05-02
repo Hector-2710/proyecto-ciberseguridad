@@ -13,7 +13,7 @@ import shutil
 import subprocess
 from pathlib import Path
 
-from models import StepResult
+from .models import StepResult
 
 LOGGER = logging.getLogger(__name__)
 

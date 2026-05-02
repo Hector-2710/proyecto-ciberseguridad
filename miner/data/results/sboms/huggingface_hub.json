@@ -1,0 +1,3286 @@
+{
+  "artifacts": [
+    {
+      "id": "4d3dd17326104915",
+      "name": "./.github/workflows/style-bot-action.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/style-bot.yml",
+          "accessPath": "/.github/workflows/style-bot.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/style-bot-action.yml:.\\/.github\\/workflows\\/style-bot-action.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/style-bot-action.yml:.\\/.github\\/workflows\\/style_bot_action.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/style_bot_action.yml:.\\/.github\\/workflows\\/style-bot-action.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/style_bot_action.yml:.\\/.github\\/workflows\\/style_bot_action.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/style-bot:.\\/.github\\/workflows\\/style-bot-action.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/style-bot:.\\/.github\\/workflows\\/style_bot_action.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/style_bot:.\\/.github\\/workflows\\/style-bot-action.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/style_bot:.\\/.github\\/workflows\\/style_bot_action.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/style:.\\/.github\\/workflows\\/style-bot-action.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/style:.\\/.github\\/workflows\\/style_bot_action.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "./.github/workflows/style-bot-action.yml"
+      }
+    },
+    {
+      "id": "98a033a27d7a0da1",
+      "name": "actions-cool/maintain-one-comment",
+      "version": "4b2dbf086015f892dcb5e8c1106f5fccd6c1476b",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/model_card_consistency_reminder.yml",
+          "accessPath": "/.github/workflows/model_card_consistency_reminder.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions-cool\\/maintain-one-comment:actions-cool\\/maintain-one-comment:4b2dbf086015f892dcb5e8c1106f5fccd6c1476b:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions-cool\\/maintain-one-comment:actions_cool\\/maintain_one_comment:4b2dbf086015f892dcb5e8c1106f5fccd6c1476b:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions_cool\\/maintain_one_comment:actions-cool\\/maintain-one-comment:4b2dbf086015f892dcb5e8c1106f5fccd6c1476b:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions_cool\\/maintain_one_comment:actions_cool\\/maintain_one_comment:4b2dbf086015f892dcb5e8c1106f5fccd6c1476b:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions-cool\\/maintain-one:actions-cool\\/maintain-one-comment:4b2dbf086015f892dcb5e8c1106f5fccd6c1476b:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions-cool\\/maintain-one:actions_cool\\/maintain_one_comment:4b2dbf086015f892dcb5e8c1106f5fccd6c1476b:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions_cool\\/maintain_one:actions-cool\\/maintain-one-comment:4b2dbf086015f892dcb5e8c1106f5fccd6c1476b:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions_cool\\/maintain_one:actions_cool\\/maintain_one_comment:4b2dbf086015f892dcb5e8c1106f5fccd6c1476b:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions-cool\\/maintain:actions-cool\\/maintain-one-comment:4b2dbf086015f892dcb5e8c1106f5fccd6c1476b:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions-cool\\/maintain:actions_cool\\/maintain_one_comment:4b2dbf086015f892dcb5e8c1106f5fccd6c1476b:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions_cool\\/maintain:actions-cool\\/maintain-one-comment:4b2dbf086015f892dcb5e8c1106f5fccd6c1476b:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions_cool\\/maintain:actions_cool\\/maintain_one_comment:4b2dbf086015f892dcb5e8c1106f5fccd6c1476b:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions:actions-cool\\/maintain-one-comment:4b2dbf086015f892dcb5e8c1106f5fccd6c1476b:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions:actions_cool\\/maintain_one_comment:4b2dbf086015f892dcb5e8c1106f5fccd6c1476b:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions-cool/maintain-one-comment@4b2dbf086015f892dcb5e8c1106f5fccd6c1476b",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions-cool/maintain-one-comment@4b2dbf086015f892dcb5e8c1106f5fccd6c1476b",
+        "comment": "v3"
+      }
+    },
+    {
+      "id": "cd9d4415a77189d9",
+      "name": "actions/checkout",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/sync-hf-cli-skill.yml",
+          "accessPath": "/.github/workflows/sync-hf-cli-skill.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v4",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v4"
+      }
+    },
+    {
+      "id": "e1ef15f8ede875ef",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/python-prerelease.yml",
+          "accessPath": "/.github/workflows/python-prerelease.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "eb7b82a7ca8250e7",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/python-quality.yml",
+          "accessPath": "/.github/workflows/python-quality.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "af8a07b815dda931",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/python-release-hf.yml",
+          "accessPath": "/.github/workflows/python-release-hf.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "9c463d26a5a25080",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/python-release.yml",
+          "accessPath": "/.github/workflows/python-release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "d8d0e3f9cbd5d8bb",
+      "name": "actions/checkout",
+      "version": "v6.0.2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/build_repocard_examples.yaml",
+          "accessPath": "/.github/workflows/build_repocard_examples.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6.0.2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+        "comment": "v6.0.2"
+      }
+    },
+    {
+      "id": "cc030cd1befde4bb",
+      "name": "actions/checkout",
+      "version": "v6.0.2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/check-installers.yml",
+          "accessPath": "/.github/workflows/check-installers.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6.0.2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+        "comment": "v6.0.2"
+      }
+    },
+    {
+      "id": "10c8b12eddf15404",
+      "name": "actions/checkout",
+      "version": "v6.0.2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/python-tests.yml",
+          "accessPath": "/.github/workflows/python-tests.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6.0.2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+        "comment": "v6.0.2"
+      }
+    },
+    {
+      "id": "244c7ee7fee242fb",
+      "name": "actions/checkout",
+      "version": "v6.0.2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release.yml",
+          "accessPath": "/.github/workflows/release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6.0.2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+        "comment": "v6.0.2"
+      }
+    },
+    {
+      "id": "96915df5e65e59fc",
+      "name": "actions/checkout",
+      "version": "v6.0.2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/style-bot-action.yml",
+          "accessPath": "/.github/workflows/style-bot-action.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6.0.2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+        "comment": "v6.0.2"
+      }
+    },
+    {
+      "id": "b3c72b9e295fc156",
+      "name": "actions/checkout",
+      "version": "v6.0.2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/trufflehog.yml",
+          "accessPath": "/.github/workflows/trufflehog.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6.0.2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+        "comment": "v6.0.2"
+      }
+    },
+    {
+      "id": "2ee53afc8761ce7b",
+      "name": "actions/checkout",
+      "version": "v6.0.2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/update-inference-types.yaml",
+          "accessPath": "/.github/workflows/update-inference-types.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6.0.2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+        "comment": "v6.0.2"
+      }
+    },
+    {
+      "id": "8514bd9b120875e0",
+      "name": "actions/create-github-app-token",
+      "version": "fee1f7d63c2ff003460e3d139729b119787bc349",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release.yml",
+          "accessPath": "/.github/workflows/release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create-github-app-token:fee1f7d63c2ff003460e3d139729b119787bc349:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create_github_app_token:fee1f7d63c2ff003460e3d139729b119787bc349:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create-github-app-token:fee1f7d63c2ff003460e3d139729b119787bc349:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create_github_app_token:fee1f7d63c2ff003460e3d139729b119787bc349:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create-github-app:actions\\/create-github-app-token:fee1f7d63c2ff003460e3d139729b119787bc349:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create-github-app:actions\\/create_github_app_token:fee1f7d63c2ff003460e3d139729b119787bc349:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create_github_app:actions\\/create-github-app-token:fee1f7d63c2ff003460e3d139729b119787bc349:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create_github_app:actions\\/create_github_app_token:fee1f7d63c2ff003460e3d139729b119787bc349:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create-github:actions\\/create-github-app-token:fee1f7d63c2ff003460e3d139729b119787bc349:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create-github:actions\\/create_github_app_token:fee1f7d63c2ff003460e3d139729b119787bc349:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create_github:actions\\/create-github-app-token:fee1f7d63c2ff003460e3d139729b119787bc349:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create_github:actions\\/create_github_app_token:fee1f7d63c2ff003460e3d139729b119787bc349:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create:actions\\/create-github-app-token:fee1f7d63c2ff003460e3d139729b119787bc349:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create:actions\\/create_github_app_token:fee1f7d63c2ff003460e3d139729b119787bc349:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+        "comment": "v2"
+      }
+    },
+    {
+      "id": "b6c8d7ea131b66c7",
+      "name": "actions/create-github-app-token",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/sync-hf-cli-skill.yml",
+          "accessPath": "/.github/workflows/sync-hf-cli-skill.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create-github-app-token:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create_github_app_token:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create-github-app-token:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create_github_app_token:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create-github-app:actions\\/create-github-app-token:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create-github-app:actions\\/create_github_app_token:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create_github_app:actions\\/create-github-app-token:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create_github_app:actions\\/create_github_app_token:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create-github:actions\\/create-github-app-token:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create-github:actions\\/create_github_app_token:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create_github:actions\\/create-github-app-token:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create_github:actions\\/create_github_app_token:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create:actions\\/create-github-app-token:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/create:actions\\/create_github_app_token:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/create-github-app-token@v2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/create-github-app-token@v2"
+      }
+    },
+    {
+      "id": "8ecf655231c499d9",
+      "name": "actions/github-script",
+      "version": "ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/style-bot-action.yml",
+          "accessPath": "/.github/workflows/style-bot-action.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/github-script:actions\\/github-script:ed597411d8f924073f98dfc5c65a23a2325f34cd:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/github-script:actions\\/github_script:ed597411d8f924073f98dfc5c65a23a2325f34cd:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/github_script:actions\\/github-script:ed597411d8f924073f98dfc5c65a23a2325f34cd:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/github_script:actions\\/github_script:ed597411d8f924073f98dfc5c65a23a2325f34cd:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/github:actions\\/github-script:ed597411d8f924073f98dfc5c65a23a2325f34cd:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/github:actions\\/github_script:ed597411d8f924073f98dfc5c65a23a2325f34cd:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+        "comment": "v8"
+      }
+    },
+    {
+      "id": "54380dfa62d0f823",
+      "name": "actions/setup-node",
+      "version": "53b83947a5a98c8d113130e565377fae1a50d02f",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/update-inference-types.yaml",
+          "accessPath": "/.github/workflows/update-inference-types.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-node:actions\\/setup-node:53b83947a5a98c8d113130e565377fae1a50d02f:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-node:actions\\/setup_node:53b83947a5a98c8d113130e565377fae1a50d02f:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_node:actions\\/setup-node:53b83947a5a98c8d113130e565377fae1a50d02f:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_node:actions\\/setup_node:53b83947a5a98c8d113130e565377fae1a50d02f:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-node:53b83947a5a98c8d113130e565377fae1a50d02f:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_node:53b83947a5a98c8d113130e565377fae1a50d02f:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+        "comment": "v6"
+      }
+    },
+    {
+      "id": "cdbe98780148bb0e",
+      "name": "actions/setup-python",
+      "version": "a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/build_repocard_examples.yaml",
+          "accessPath": "/.github/workflows/build_repocard_examples.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+        "comment": "v6"
+      }
+    },
+    {
+      "id": "8597c3684591f5e1",
+      "name": "actions/setup-python",
+      "version": "a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/python-tests.yml",
+          "accessPath": "/.github/workflows/python-tests.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+        "comment": "v6"
+      }
+    },
+    {
+      "id": "ba1e0ea40d11829f",
+      "name": "actions/setup-python",
+      "version": "a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release.yml",
+          "accessPath": "/.github/workflows/release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+        "comment": "v6"
+      }
+    },
+    {
+      "id": "273f4ecb953e21d9",
+      "name": "actions/setup-python",
+      "version": "a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/style-bot-action.yml",
+          "accessPath": "/.github/workflows/style-bot-action.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+        "comment": "v6"
+      }
+    },
+    {
+      "id": "f9e9f85b3eb7f070",
+      "name": "actions/setup-python",
+      "version": "a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/update-inference-types.yaml",
+          "accessPath": "/.github/workflows/update-inference-types.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:a309ff8b426b58ec0e2a45f0f869d46889d02405:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+        "comment": "v6"
+      }
+    },
+    {
+      "id": "cba24da8d2926018",
+      "name": "actions/setup-python",
+      "version": "v5",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/sync-hf-cli-skill.yml",
+          "accessPath": "/.github/workflows/sync-hf-cli-skill.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-python@v5",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-python@v5"
+      }
+    },
+    {
+      "id": "1330da46c35715c1",
+      "name": "actions/setup-python",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/python-quality.yml",
+          "accessPath": "/.github/workflows/python-quality.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-python@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-python@v6"
+      }
+    },
+    {
+      "id": "e82002466590992f",
+      "name": "actions/setup-python",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/python-release-hf.yml",
+          "accessPath": "/.github/workflows/python-release-hf.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-python@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-python@v6"
+      }
+    },
+    {
+      "id": "bf05adc3b063cfb2",
+      "name": "actions/setup-python",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/python-release.yml",
+          "accessPath": "/.github/workflows/python-release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-python@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-python@v6"
+      }
+    },
+    {
+      "id": "8658833fca86adf9",
+      "name": "astral-sh/setup-uv",
+      "version": "v7",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/sync-hf-cli-skill.yml",
+          "accessPath": "/.github/workflows/sync-hf-cli-skill.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:astral-sh\\/setup-uv:astral-sh\\/setup-uv:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral-sh\\/setup-uv:astral_sh\\/setup_uv:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral_sh\\/setup_uv:astral-sh\\/setup-uv:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral_sh\\/setup_uv:astral_sh\\/setup_uv:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral-sh\\/setup:astral-sh\\/setup-uv:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral-sh\\/setup:astral_sh\\/setup_uv:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral_sh\\/setup:astral-sh\\/setup-uv:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral_sh\\/setup:astral_sh\\/setup_uv:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral:astral-sh\\/setup-uv:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:astral:astral_sh\\/setup_uv:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/astral-sh/setup-uv@v7",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "astral-sh/setup-uv@v7"
+      }
+    },
+    {
+      "id": "f2e463af62ebcaa6",
+      "name": "codecov/codecov-action",
+      "version": "75cd11691c0faa626561e295848008c8a7dddffe",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/python-tests.yml",
+          "accessPath": "/.github/workflows/python-tests.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov-action:codecov\\/codecov-action:75cd11691c0faa626561e295848008c8a7dddffe:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov-action:codecov\\/codecov_action:75cd11691c0faa626561e295848008c8a7dddffe:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov_action:codecov\\/codecov-action:75cd11691c0faa626561e295848008c8a7dddffe:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov_action:codecov\\/codecov_action:75cd11691c0faa626561e295848008c8a7dddffe:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov:codecov\\/codecov-action:75cd11691c0faa626561e295848008c8a7dddffe:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov:codecov\\/codecov_action:75cd11691c0faa626561e295848008c8a7dddffe:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+        "comment": "v5"
+      }
+    },
+    {
+      "id": "3b44b4c51cf11a9c",
+      "name": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml",
+      "version": "2430c1ec91d04667414e2fa31ecfc36c153ea391",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/build_documentation.yaml",
+          "accessPath": "/.github/workflows/build_documentation.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc-builder\\/.github\\/workflows\\/build-main-documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc-builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc_builder\\/.github\\/workflows\\/build_main_documentation.yml:2430c1ec91d04667414e2fa31ecfc36c153ea391:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/huggingface/doc-builder@2430c1ec91d04667414e2fa31ecfc36c153ea391#.github/workflows/build_main_documentation.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@2430c1ec91d04667414e2fa31ecfc36c153ea391"
+      }
+    },
+    {
+      "id": "dd46014452f31327",
+      "name": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml",
+      "version": "90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/build_pr_documentation.yaml",
+          "accessPath": "/.github/workflows/build_pr_documentation.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/build:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/build:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc-builder\\/.github\\/workflows\\/build-pr-documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc-builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc_builder\\/.github\\/workflows\\/build_pr_documentation.yml:90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/huggingface/doc-builder@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3#.github/workflows/build_pr_documentation.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3"
+      }
+    },
+    {
+      "id": "6aaba270da5d9d2f",
+      "name": "huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml",
+      "version": "9ad2de8582b56c017cb530c1165116d40433f1c6",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/upload_pr_documentation.yaml",
+          "accessPath": "/.github/workflows/upload_pr_documentation.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc-builder\\/.github\\/workflows\\/upload:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc_builder\\/.github\\/workflows\\/upload:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc-builder\\/.github\\/workflows\\/upload-pr-documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc-builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:huggingface\\/doc:huggingface\\/doc_builder\\/.github\\/workflows\\/upload_pr_documentation.yml:9ad2de8582b56c017cb530c1165116d40433f1c6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/huggingface/doc-builder@9ad2de8582b56c017cb530c1165116d40433f1c6#.github/workflows/upload_pr_documentation.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml@9ad2de8582b56c017cb530c1165116d40433f1c6"
+      }
+    },
+    {
+      "id": "3766fe399a817011",
+      "name": "mypy",
+      "version": "1.15.0",
+      "type": "python",
+      "foundBy": "python-package-cataloger",
+      "locations": [
+        {
+          "path": "/setup.py",
+          "accessPath": "/setup.py",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "python",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:python-mypy:python-mypy:1.15.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-mypy:python_mypy:1.15.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_mypy:python-mypy:1.15.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_mypy:python_mypy:1.15.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python-mypy:1.15.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:python_mypy:1.15.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mypy:python-mypy:1.15.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mypy:python_mypy:1.15.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python-mypy:mypy:1.15.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python_mypy:mypy:1.15.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:python:mypy:1.15.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mypy:mypy:1.15.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:pypi/mypy@1.15.0"
+    },
+    {
+      "id": "6e7bf0992322479e",
+      "name": "peter-evans/create-pull-request",
+      "version": "22a9089034f40e5a961c8808d113e2c98fb63676",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release.yml",
+          "accessPath": "/.github/workflows/release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create-pull-request:peter-evans\\/create-pull-request:22a9089034f40e5a961c8808d113e2c98fb63676:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create-pull-request:peter_evans\\/create_pull_request:22a9089034f40e5a961c8808d113e2c98fb63676:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create_pull_request:peter-evans\\/create-pull-request:22a9089034f40e5a961c8808d113e2c98fb63676:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create_pull_request:peter_evans\\/create_pull_request:22a9089034f40e5a961c8808d113e2c98fb63676:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create-pull:peter-evans\\/create-pull-request:22a9089034f40e5a961c8808d113e2c98fb63676:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create-pull:peter_evans\\/create_pull_request:22a9089034f40e5a961c8808d113e2c98fb63676:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create_pull:peter-evans\\/create-pull-request:22a9089034f40e5a961c8808d113e2c98fb63676:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create_pull:peter_evans\\/create_pull_request:22a9089034f40e5a961c8808d113e2c98fb63676:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create:peter-evans\\/create-pull-request:22a9089034f40e5a961c8808d113e2c98fb63676:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create:peter_evans\\/create_pull_request:22a9089034f40e5a961c8808d113e2c98fb63676:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create:peter-evans\\/create-pull-request:22a9089034f40e5a961c8808d113e2c98fb63676:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create:peter_evans\\/create_pull_request:22a9089034f40e5a961c8808d113e2c98fb63676:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter:peter-evans\\/create-pull-request:22a9089034f40e5a961c8808d113e2c98fb63676:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter:peter_evans\\/create_pull_request:22a9089034f40e5a961c8808d113e2c98fb63676:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676",
+        "comment": "v7"
+      }
+    },
+    {
+      "id": "0fad11cb52c2c4c7",
+      "name": "peter-evans/create-pull-request",
+      "version": "c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/update-inference-types.yaml",
+          "accessPath": "/.github/workflows/update-inference-types.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create-pull-request:peter-evans\\/create-pull-request:c0f553fe549906ede9cf27b5156039d195d2ece0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create-pull-request:peter_evans\\/create_pull_request:c0f553fe549906ede9cf27b5156039d195d2ece0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create_pull_request:peter-evans\\/create-pull-request:c0f553fe549906ede9cf27b5156039d195d2ece0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create_pull_request:peter_evans\\/create_pull_request:c0f553fe549906ede9cf27b5156039d195d2ece0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create-pull:peter-evans\\/create-pull-request:c0f553fe549906ede9cf27b5156039d195d2ece0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create-pull:peter_evans\\/create_pull_request:c0f553fe549906ede9cf27b5156039d195d2ece0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create_pull:peter-evans\\/create-pull-request:c0f553fe549906ede9cf27b5156039d195d2ece0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create_pull:peter_evans\\/create_pull_request:c0f553fe549906ede9cf27b5156039d195d2ece0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create:peter-evans\\/create-pull-request:c0f553fe549906ede9cf27b5156039d195d2ece0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create:peter_evans\\/create_pull_request:c0f553fe549906ede9cf27b5156039d195d2ece0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create:peter-evans\\/create-pull-request:c0f553fe549906ede9cf27b5156039d195d2ece0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create:peter_evans\\/create_pull_request:c0f553fe549906ede9cf27b5156039d195d2ece0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter:peter-evans\\/create-pull-request:c0f553fe549906ede9cf27b5156039d195d2ece0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter:peter_evans\\/create_pull_request:c0f553fe549906ede9cf27b5156039d195d2ece0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+        "comment": "v8"
+      }
+    },
+    {
+      "id": "2d105dd1b63fe197",
+      "name": "peter-evans/create-pull-request",
+      "version": "v7",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/sync-hf-cli-skill.yml",
+          "accessPath": "/.github/workflows/sync-hf-cli-skill.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create-pull-request:peter-evans\\/create-pull-request:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create-pull-request:peter_evans\\/create_pull_request:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create_pull_request:peter-evans\\/create-pull-request:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create_pull_request:peter_evans\\/create_pull_request:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create-pull:peter-evans\\/create-pull-request:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create-pull:peter_evans\\/create_pull_request:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create_pull:peter-evans\\/create-pull-request:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create_pull:peter_evans\\/create_pull_request:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create:peter-evans\\/create-pull-request:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter-evans\\/create:peter_evans\\/create_pull_request:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create:peter-evans\\/create-pull-request:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter_evans\\/create:peter_evans\\/create_pull_request:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter:peter-evans\\/create-pull-request:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:peter:peter_evans\\/create_pull_request:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/peter-evans/create-pull-request@v7",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "peter-evans/create-pull-request@v7"
+      }
+    },
+    {
+      "id": "9b7db824657bb450",
+      "name": "pnpm/action-setup",
+      "version": "b906affcce14559ad1aafd4ab0e942779e9f58b1",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/update-inference-types.yaml",
+          "accessPath": "/.github/workflows/update-inference-types.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:pnpm\\/action-setup:pnpm\\/action-setup:b906affcce14559ad1aafd4ab0e942779e9f58b1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pnpm\\/action-setup:pnpm\\/action_setup:b906affcce14559ad1aafd4ab0e942779e9f58b1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pnpm\\/action_setup:pnpm\\/action-setup:b906affcce14559ad1aafd4ab0e942779e9f58b1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pnpm\\/action_setup:pnpm\\/action_setup:b906affcce14559ad1aafd4ab0e942779e9f58b1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pnpm\\/action:pnpm\\/action-setup:b906affcce14559ad1aafd4ab0e942779e9f58b1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pnpm\\/action:pnpm\\/action_setup:b906affcce14559ad1aafd4ab0e942779e9f58b1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1",
+        "comment": "v4"
+      }
+    },
+    {
+      "id": "be2eaa85ebb32882",
+      "name": "trufflesecurity/trufflehog",
+      "version": "6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/trufflehog.yml",
+          "accessPath": "/.github/workflows/trufflehog.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:trufflesecurity\\/trufflehog:trufflesecurity\\/trufflehog:6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b"
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "0fad11cb52c2c4c7",
+      "child": "3fe710f905411129",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "10c8b12eddf15404",
+      "child": "a4b904fed574eb25",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1330da46c35715c1",
+      "child": "7b11bdc20d80f1bb",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "244c7ee7fee242fb",
+      "child": "cc210d8a1a5f5704",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "273f4ecb953e21d9",
+      "child": "bb6c6e72d4ca26eb",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "0fad11cb52c2c4c7",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "10c8b12eddf15404",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "1330da46c35715c1",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "244c7ee7fee242fb",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "273f4ecb953e21d9",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "2d105dd1b63fe197",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "2ee53afc8761ce7b",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "3766fe399a817011",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "3b44b4c51cf11a9c",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "4d3dd17326104915",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "54380dfa62d0f823",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "6aaba270da5d9d2f",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "6e7bf0992322479e",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "8514bd9b120875e0",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "8597c3684591f5e1",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "8658833fca86adf9",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "8ecf655231c499d9",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "96915df5e65e59fc",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "98a033a27d7a0da1",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "9b7db824657bb450",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "9c463d26a5a25080",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "af8a07b815dda931",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "b3c72b9e295fc156",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "b6c8d7ea131b66c7",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "ba1e0ea40d11829f",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "be2eaa85ebb32882",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "bf05adc3b063cfb2",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "cba24da8d2926018",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "cc030cd1befde4bb",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "cd9d4415a77189d9",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "cdbe98780148bb0e",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "d8d0e3f9cbd5d8bb",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "dd46014452f31327",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "e1ef15f8ede875ef",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "e82002466590992f",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "eb7b82a7ca8250e7",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "f2e463af62ebcaa6",
+      "type": "contains"
+    },
+    {
+      "parent": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+      "child": "f9e9f85b3eb7f070",
+      "type": "contains"
+    },
+    {
+      "parent": "2d105dd1b63fe197",
+      "child": "71c35e81b68e7850",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2ee53afc8761ce7b",
+      "child": "3fe710f905411129",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "3766fe399a817011",
+      "child": "c829033125510d5a",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "3b44b4c51cf11a9c",
+      "child": "c9fc428293b267fd",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4d3dd17326104915",
+      "child": "689e4f5d097007c6",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "54380dfa62d0f823",
+      "child": "3fe710f905411129",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "6aaba270da5d9d2f",
+      "child": "d212a5c1b13960a0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "6e7bf0992322479e",
+      "child": "cc210d8a1a5f5704",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "8514bd9b120875e0",
+      "child": "cc210d8a1a5f5704",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "8597c3684591f5e1",
+      "child": "a4b904fed574eb25",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "8658833fca86adf9",
+      "child": "71c35e81b68e7850",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "8ecf655231c499d9",
+      "child": "bb6c6e72d4ca26eb",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "96915df5e65e59fc",
+      "child": "bb6c6e72d4ca26eb",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "98a033a27d7a0da1",
+      "child": "faf855adf0edbdc2",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9b7db824657bb450",
+      "child": "3fe710f905411129",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9c463d26a5a25080",
+      "child": "ccc748032d4850f2",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "af8a07b815dda931",
+      "child": "9b2775f7d75cbc35",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b3c72b9e295fc156",
+      "child": "df6706fea75e2f98",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b6c8d7ea131b66c7",
+      "child": "71c35e81b68e7850",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ba1e0ea40d11829f",
+      "child": "cc210d8a1a5f5704",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "be2eaa85ebb32882",
+      "child": "df6706fea75e2f98",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "bf05adc3b063cfb2",
+      "child": "ccc748032d4850f2",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "cba24da8d2926018",
+      "child": "71c35e81b68e7850",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "cc030cd1befde4bb",
+      "child": "6bf31bd267af743a",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "cd9d4415a77189d9",
+      "child": "71c35e81b68e7850",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "cdbe98780148bb0e",
+      "child": "1fa637720a0c92a7",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d8d0e3f9cbd5d8bb",
+      "child": "1fa637720a0c92a7",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "dd46014452f31327",
+      "child": "4b39d169b3bb2eb6",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e1ef15f8ede875ef",
+      "child": "51c468b39bb7159f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e82002466590992f",
+      "child": "9b2775f7d75cbc35",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "eb7b82a7ca8250e7",
+      "child": "7b11bdc20d80f1bb",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f2e463af62ebcaa6",
+      "child": "a4b904fed574eb25",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f9e9f85b3eb7f070",
+      "child": "3fe710f905411129",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "c9fc428293b267fd",
+      "location": {
+        "path": "/.github/workflows/build_documentation.yaml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 430
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "dd3d7930912ede7cc3f2db7368a27424ebc891b5"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "ec1ff28b9d32cab3a119ad826c1d0a4a91e7e19adf0b0b09970be83021df13dc"
+        }
+      ]
+    },
+    {
+      "id": "4b39d169b3bb2eb6",
+      "location": {
+        "path": "/.github/workflows/build_pr_documentation.yaml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 489
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "ee4f87496b1119e4b01ab86edeaf9f43df8d3b88"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "e11d253c09d1ffc08b5418d0257e332e4029fe55dc47df4e42f20c5faba85fa1"
+        }
+      ]
+    },
+    {
+      "id": "1fa637720a0c92a7",
+      "location": {
+        "path": "/.github/workflows/build_repocard_examples.yaml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 737
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "7646caf2c2ac463003cad87e8ccadd9ce556adf1"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "6d1fed21595be1fb61132eb1ed82d932c96b2b491e4213d24ee05c08ad3b70b2"
+        }
+      ]
+    },
+    {
+      "id": "6bf31bd267af743a",
+      "location": {
+        "path": "/.github/workflows/check-installers.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 2456
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "7e1e93dd38e3bdc0a5f4238d70a905c3773961a5"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "c190f9bcfb17c873f4adb52fc201c8167e752d84f40582727a3dc2c39e7ddae0"
+        }
+      ]
+    },
+    {
+      "id": "faf855adf0edbdc2",
+      "location": {
+        "path": "/.github/workflows/model_card_consistency_reminder.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 1905
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "8ba97314cea636572b66deb3ca41040d9db659d7"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "7cb8688b986d867b8bae42f2e7fc17a0d69d25a27a2e653414e1f728820752f7"
+        }
+      ]
+    },
+    {
+      "id": "51c468b39bb7159f",
+      "location": {
+        "path": "/.github/workflows/python-prerelease.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 3917
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "16df637ac614354535d180dc3ba61898778e8e02"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "d8049f50c2b5e58eea80c8a4a6a2db053ba901dcb02bddf1369beac4934e8216"
+        }
+      ]
+    },
+    {
+      "id": "7b11bdc20d80f1bb",
+      "location": {
+        "path": "/.github/workflows/python-quality.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 1747
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "b547caf32b78a5adf17e0ce05207ab3c82988717"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "95b94f216183a5ed3cbdb34e3d03a070422cac57e1ea885ce5c5ff448d46af0b"
+        }
+      ]
+    },
+    {
+      "id": "9b2775f7d75cbc35",
+      "location": {
+        "path": "/.github/workflows/python-release-hf.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 794
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "dea8766b4cd8a7d4242e1f8f32f6c5433faa6cab"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "9ef5e5bf6ecc8a6aa32e27a82e903d8bcf40980ab6b61e5ced6c4582b766bdfd"
+        }
+      ]
+    },
+    {
+      "id": "ccc748032d4850f2",
+      "location": {
+        "path": "/.github/workflows/python-release.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 679
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "060c64d875d571c4081ae39ab73e4b276efd511a"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "bfbc0de36a63dfb72cc48f5d6e6af292a3fbef08fabf241747aedb14a9e70ab5"
+        }
+      ]
+    },
+    {
+      "id": "a4b904fed574eb25",
+      "location": {
+        "path": "/.github/workflows/python-tests.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 6623
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "2c57fa0de9cec02bcb268f34eef76aabce6b2d4d"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "8033afb6cf7863c57eb3b69944b2ceb90461c897b33891fd7ced495983bdaa3d"
+        }
+      ]
+    },
+    {
+      "id": "cc210d8a1a5f5704",
+      "location": {
+        "path": "/.github/workflows/release.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 55357
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "ec4a9ebfdfc2a98ddd21c6351846179d053e0be6"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "046828b4d771e0d4087f5230982e7e49c1f680c4846aad81d47ffec106c3e531"
+        }
+      ]
+    },
+    {
+      "id": "bb6c6e72d4ca26eb",
+      "location": {
+        "path": "/.github/workflows/style-bot-action.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 10224
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "9b635576d1d493b449f7cad365212a28c8579b4f"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "2ef330b0e303a2b4cc97db377a86c16ba6953338ddbafe79538de8c82233fd0c"
+        }
+      ]
+    },
+    {
+      "id": "689e4f5d097007c6",
+      "location": {
+        "path": "/.github/workflows/style-bot.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 341
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "f2a6f761440f0bbea771ebab5e9e27e3f6cf1020"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "b0b895ef0a316ab3fa30bf7c73d6136a6d1382dd1c2d3a690f30fd54f2e3efd4"
+        }
+      ]
+    },
+    {
+      "id": "71c35e81b68e7850",
+      "location": {
+        "path": "/.github/workflows/sync-hf-cli-skill.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 3046
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "ad82ce612fb9fefbebb57f7f0b7f525f603edd29"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "f56085ae44fb5a1d3caa32dffd94f442969912c14257107df98abde66d695790"
+        }
+      ]
+    },
+    {
+      "id": "df6706fea75e2f98",
+      "location": {
+        "path": "/.github/workflows/trufflehog.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 406
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "82b770b3d6bb930962b9a178a1679698d678838f"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "df0f96b78f365154322c159acad4adae12b89030dc96aab1841293fa938ac263"
+        }
+      ]
+    },
+    {
+      "id": "3fe710f905411129",
+      "location": {
+        "path": "/.github/workflows/update-inference-types.yaml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 3598
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "b1e078702055033390bc5d02f166b2699598b711"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "5c05d5cc6ae93e7c0ba083e66984b22ecb29970e9dc134fa2299d48393977cce"
+        }
+      ]
+    },
+    {
+      "id": "d212a5c1b13960a0",
+      "location": {
+        "path": "/.github/workflows/upload_pr_documentation.yaml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 502
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "14f44230c1a77f2d57bfdfef598bb76bd37205e4"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "61668cdb50945ceb23ff25d1cd44f9b7d956227e91cfb7cd36d8580c90b68457"
+        }
+      ]
+    },
+    {
+      "id": "c829033125510d5a",
+      "location": {
+        "path": "/setup.py"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 4658
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "8866d7cbf093e65297b2988e73e24f1833a903f5"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "478a315c5ff93715983db4a02c1833fbc54e66b2be928be3b0ab2dbc5c033ba5"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "2a9005dec0a620fb874a176f4633ecf371078ba2deda8ba95c6e60058c9392f0",
+    "name": "/workspaces/proyecto-ciberseguridad/miner/data/repos/huggingface_hub",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/workspaces/proyecto-ciberseguridad/miner/data/repos/huggingface_hub"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.44.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "conda-meta-cataloger",
+          "dart-pubspec-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "deb-archive-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dotnet-packages-lock-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "gguf-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "opam-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-lock-cataloger",
+          "php-interpreter-cataloger",
+          "php-pear-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "r-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "snap-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "terraform-lock-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "valkey-binary",
+          "nodejs-binary",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "deno-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "openldap-search-binary",
+          "qt-qtbase-lib",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "istio-binary",
+          "istio-binary",
+          "grafana-binary",
+          "grafana-binary",
+          "envoy-binary",
+          "mongodb-binary",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "exclude-project-references": true,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/home/vscode/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false,
+          "use-packages-lib": true
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/vscode/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+  }
+}

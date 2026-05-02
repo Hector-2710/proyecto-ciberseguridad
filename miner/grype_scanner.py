@@ -13,7 +13,7 @@ import subprocess
 from pathlib import Path
 from typing import Any
 
-from models import StepResult, Vulnerability
+from .models import StepResult, Vulnerability
 
 LOGGER = logging.getLogger(__name__)
 

@@ -4,9 +4,9 @@ Extracts vulnerabilities from software repositories using CodeQL, Syft, and Gryp
 producing a unified structured dataset.
 """
 
-from pipeline import MinerPipeline
-from config import Config
-from models import Vulnerability, StepResult, PipelineResult
+from .pipeline import MinerPipeline
+from .config import Config
+from .models import Vulnerability, StepResult, PipelineResult
 
 __all__ = ["MinerPipeline", "Config", "Vulnerability", "StepResult", "PipelineResult"]
 __version__ = "0.1.0"
