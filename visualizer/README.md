@@ -17,7 +17,7 @@ Este visualizador presenta los resultados consolidados del análisis de ciberseg
 - Python 3.8+
 - Dependencias listadas en `requirements.txt`
 
-## Instalación
+## Instalación local
 
 1. Activar el entorno virtual:
    ```bash
@@ -29,7 +29,7 @@ Este visualizador presenta los resultados consolidados del análisis de ciberseg
    pip install -r requirements.txt
    ```
 
-## Uso
+## Uso local
 
 Ejecutar el visualizador:
 
@@ -45,6 +45,35 @@ streamlit run app.py
 ```
 
 Esto abrirá una interfaz web en el navegador donde podrás explorar las visualizaciones.
+
+## Uso con Docker
+
+El proyecto incluye un Dockerfile en `visualizer/.devcontainer/Dockerfile` que crea la imagen y arranca Streamlit en `0.0.0.0:8501`.
+
+Desde la carpeta `visualizer`, construye la imagen:
+
+```bash
+cd /home/marco/Ciberseguridad/proyecto-ciberseguridad/visualizer
+docker build -t visualizer-test -f .devcontainer/Dockerfile .
+```
+
+Luego ejecuta el contenedor:
+
+```bash
+docker run --rm -p 8501:8501 \
+  -v "$PWD:/workspace/visualizer:ro" \
+  -v "$PWD/../miner:/workspace/miner:ro" \
+  -w /workspace/visualizer \
+  visualizer-test
+```
+
+Abre el navegador en:
+
+```bash
+http://localhost:8501
+```
+
+> Si prefieres, también puedes usar `docker compose up` desde la raíz del proyecto con el archivo `docker-compose.yml` que está configurado para este visualizador.
 
 ## Actualización de Datos
 
