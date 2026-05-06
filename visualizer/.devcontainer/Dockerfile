@@ -6,10 +6,12 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-RUN pip install --no-cache-dir \
-    pandas \
-    matplotlib \
-    seaborn \
-    plotly \
-    dash \
-    streamlit
+WORKDIR /workspace/visualizer
+
+COPY requirements.txt /workspace/visualizer/requirements.txt
+
+RUN pip install --no-cache-dir -r /workspace/visualizer/requirements.txt
+
+EXPOSE 8501
+
+CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0", "--server.port=8501"]

@@ -1,7 +1,5 @@
 #!/bin/bash
+set -e
+cd "$(dirname "$0")"
 
-# Activar entorno virtual
-source ../.venv/bin/activate
-
-# Ejecutar Streamlit
-streamlit run app.py
+streamlit run app.py --server.address=0.0.0.0 --server.port=8501
